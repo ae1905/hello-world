@@ -114,3 +114,5 @@ step(0.1, 0, 0.001, 0.05)
 
 def liu(x,y):
     pass
+def add(x,y):
+    return x+y
