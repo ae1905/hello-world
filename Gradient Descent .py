@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 function = lambda x: (x ** 3)-(3 *(x ** 2))+7
 
 #Get 1000 evenly spaced numbers between -1 and 3 (arbitratil chosen to ensure steep curve)
-x = np.linspace(-1,3,500)
+x = np.linspace(-2,3,500)
 
 #Plot the curve
 plt.plot(x, function(x))
@@ -111,3 +111,6 @@ def step(x_new, x_prev, precision, l_r):
 #Implement gradient descent (all the arguments are arbitrarily chosen)
 
 step(0.1, 0, 0.001, 0.05)
+
+def liu(x,y):
+    pass
